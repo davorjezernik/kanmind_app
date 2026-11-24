@@ -1,0 +1,37 @@
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+*.log
+media/
+staticfiles/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Frontend (separate git repo, cloned for local testing)
+project.KanMind/
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
